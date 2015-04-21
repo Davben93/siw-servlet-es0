@@ -15,7 +15,11 @@ public class MostraParametri extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) 
 			throws ServletException, IOException {
+<<<<<<< HEAD
 		// gestione della RI
+=======
+		// gestione della RISPO
+>>>>>>> refs/remotes/origin/master
 		
 		// leggo i parametri
 		String nome = request.getParameter("nome").toUpperCase();
